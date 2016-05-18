@@ -132,6 +132,8 @@ pub use types::HydrogenSocket;
 mod types;
 mod server;
 mod config;
+mod epoll;
+mod eventloop;
 
 
 /// Trait object responsible for handling reported I/O events.
